@@ -1,0 +1,25 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "Personal Site",
+  "main": "sass/master.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/master.scss css/master.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aknell/aknell.github.io.git"
+  },
+  "author": "Aknell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aknell/aknell.github.io/issues"
+  },
+  "homepage": "https://github.com/Aknell/aknell.github.io#readme",
+  "devDependencies": {
+    "bulma": "^0.9.0",
+    "node-sass": "^4.14.1"
+  }
+}
