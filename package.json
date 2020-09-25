@@ -4,7 +4,9 @@
   "description": "Personal Site",
   "main": "resources/sass/master.scss",
   "scripts": {
-    "build": "webpack --mode production"
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
   },
   "repository": {
     "type": "git",
