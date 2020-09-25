@@ -1,2 +1,4 @@
 # aknell.github.io
-My Personal Website
+Hello! This is my personal website!
+
+You can use this site to see my work
