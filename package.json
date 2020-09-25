@@ -4,6 +4,7 @@
   "description": "Personal Site",
   "main": "webpack.config.js",
   "scripts": {
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
