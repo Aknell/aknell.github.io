@@ -4,9 +4,6 @@
   "description": "Personal Site",
   "main": "webpack.config.js",
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url sass/master.scss css/master.css",
-    "css-watch": "npm run css-build -- --watch",
-    "start": "npm run css-watch"
   },
   "repository": {
     "type": "git",
