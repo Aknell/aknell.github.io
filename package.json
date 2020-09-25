@@ -2,7 +2,7 @@
   "name": "personal-site",
   "version": "1.0.0",
   "description": "Personal Site",
-  "main": "webpack.config.js",
+  "main": "resources/sass/master.scss",
   "scripts": {
     "build": "webpack --mode production"
   },
