@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700");
+@import url("https://fonts.googleapis.com/css?family=Exo+2:300,600");
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 @keyframes spinAround {
   from {
@@ -183,7 +183,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Comfortaa", "Nunito", sans-serif; }
+  font-family: "Exo 2", "Nunito", sans-serif; }
 
 code,
 pre {
@@ -194,7 +194,7 @@ pre {
 body {
   color: #757763;
   font-size: 1em;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5; }
 
 a {
@@ -237,7 +237,7 @@ span {
 
 strong {
   color: #363636;
-  font-weight: 700; }
+  font-weight: 600; }
 
 fieldset {
   border: none; }
@@ -1215,7 +1215,7 @@ table th {
 .subtitle {
   color: #757763;
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.25; }
   .subtitle strong {
     color: #363636;
@@ -1822,7 +1822,7 @@ table th {
   color: #363636;
   display: block;
   font-size: 1rem;
-  font-weight: 700; }
+  font-weight: 600; }
   .label:not(:last-child) {
     margin-bottom: 0.5em; }
   .label.is-small {
