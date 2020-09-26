@@ -235,7 +235,7 @@ span {
 
 strong {
   color: #363636;
-  font-weight: 700; }
+  font-weight: 200; }
 
 fieldset {
   border: none; }
@@ -1186,7 +1186,7 @@ table th {
 .title {
   color: #363636;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 200;
   line-height: 1.125; }
   .title strong {
     color: inherit;
@@ -1217,7 +1217,7 @@ table th {
   line-height: 1.25; }
   .subtitle strong {
     color: #363636;
-    font-weight: 600; }
+    font-weight: 200; }
   .subtitle:not(.is-spaced) + .title {
     margin-top: -1.25rem; }
   .subtitle.is-1 {
@@ -1820,7 +1820,7 @@ table th {
   color: #363636;
   display: block;
   font-size: 1rem;
-  font-weight: 700; }
+  font-weight: 200; }
   .label:not(:last-child) {
     margin-bottom: 0.5em; }
   .label.is-small {
