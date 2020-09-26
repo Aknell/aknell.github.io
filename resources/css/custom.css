@@ -1,7 +1,62 @@
+@keyframes hero-logo-circle {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
 #tab-content p {
   display: none!important;
 }
 
 #tab-content p.is-active {
   display: block!important;
+}
+
+.wrapper {
+  padding-top: 100px!important;
+  padding-bottom: 0px!important;
+}
+
+.hero-wrap {
+  flex-wrap: wrap!important;
+  align-items: center;
+}
+.hero-logo {
+  flex: 0 0 500px!important;
+  height: 336px!important;
+  background-repeat: no-repeat!important;
+  background-image: url(../images/logo-emblem.png);
+  background-position: center!important;
+  user-select: none!important;
+}
+.hero-logo-circles {
+  width: 336px!important;
+  height: 336px!important;
+  margin: auto!important;
+  position: relative!important;
+}
+.hero-logo-circle {
+  position: absolute!important;
+  left: 0!important;
+  top: 0!important;
+  animation: hero-logo-circle 1s linear infinite!important;
+  will-change: transform!important;
+}
+.hero-logo-circle:nth-child(1) {
+  animation-duration: 50s!important;
+}
+.hero-logo-circle:nth-child(2) {
+  animation-duration: 20s!important;
+}
+
+.hero-features {
+  margin-top: 100px;
+  margin: 133.3333333333px 0 0 0;
+  padding: 0 10px;
+}
+.hero-nameplate {
+  margin: 0 0 .5em 0;
+  font-size: 2.3em;
+  letter-spacing: 0.05em;
+  font-weight: 200;
 }
