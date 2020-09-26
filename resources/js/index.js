@@ -5,7 +5,7 @@ $(document).ready(function() {
     $('#tabs li').removeClass('is-active');
     $(this).addClass('is-active');
 
-    $('#tabs p').removeClass('is-active');
+    $('#tabs div').removeClass('is-active');
     $('p[data-content="' + tab + '"]').addClass('is-active');
   })
 });
