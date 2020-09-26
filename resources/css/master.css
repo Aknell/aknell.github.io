@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Exo+2:300,600");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,500");
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 @keyframes spinAround {
   from {
@@ -183,7 +183,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Exo 2", "Nunito", sans-serif; }
+  font-family: "Ubuntu", "Nunito", sans-serif; }
 
 code,
 pre {
@@ -237,7 +237,7 @@ span {
 
 strong {
   color: #363636;
-  font-weight: 600; }
+  font-weight: 500; }
 
 fieldset {
   border: none; }
@@ -1822,7 +1822,7 @@ table th {
   color: #363636;
   display: block;
   font-size: 1rem;
-  font-weight: 600; }
+  font-weight: 500; }
   .label:not(:last-child) {
     margin-bottom: 0.5em; }
   .label.is-small {
