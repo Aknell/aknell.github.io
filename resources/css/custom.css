@@ -1,7 +1,7 @@
-#tab-content p {
+#tab-content div {
   display: none!important;
 }
 
-#tab-content p.is-active {
+#tab-content div.is-active {
   display: block!important;
 }
