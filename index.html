@@ -6,82 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My custom Bulma website</title>
     <link rel="stylesheet" href="resources/css/master.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
   <body>
     <section class="hero is-black is-large is-bold">
-      <div class="hero-head">
-        <nav class="navbar">
-          <div class="container">
-            <div class="navbar-burger burger">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div id="navbarMenuHeroA" class="navbar-menu">
-              <div class="navbar-start">
-                <a class="navbar-item">Home</a>
-                <a class="navbar-item">About</a>
-                <span class="navbar-item">
-                  <a class="button is-black is-inverted">
-                    <span class="icon">
-                      <i class="fab fa-gitbub"></i>
-                    </span>
-                    <span>Check me out!</span>
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </div>
       <div class="hero-body">
         <div class="container">
           <h1 class="title">Aknell</h1>
           <h2 class="subtitle">Welcome to my website!</h2>
         </div>
       </div>
+      <div class="hero-foot">
+        <div class="tabs is-boxed is-fullwidth">
+          <div class="container">
+            <ul>
+              <li class="is-active" onclick="openTab(event, 'About')">
+                <a>About me</a>
+              </li>
+              <li onclick="openTab(event, 'Contact')">
+                <a>Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
-    <div class="container">
-      <section class="section">
-        <div class="columns">
-          <div class="column">
-            <h1 class="title">
-              Bulma
-            </h1>
-            <p class="subtitle">
-              Modern CSS framework based on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
-            </p>
-          </div>
-        </div>
-        <div class="columns">
-          <div class="column is-fifth">
-            <div class="field">
-             <div class="control">
-               <input class="input" type="text" placeholder="Input">
-             </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="field">
-             <p class="control">
-               <span class="select">
-                 <select>
-                   <option>Select dropdown</option>
-                 </select>
-               </span>
-             </p>
-            </div>
-          </div>
-        </div>
-        <div class="columns">
-          <div class="column">
-            <div class="buttons">
-             <a class="button is-primary">Primary</a>
-             <a class="button is-link">Link</a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+    <section class="section">
+      <div class="container">
+        <div id="About" class="content-tab">About</div>
+        <div id="Contact" class="content-tab">Contact</div>
+      </div>
+    </section>
+    <script src="resources/js/index.js" type="text/javascript"></script>
   </body>
 </html>
