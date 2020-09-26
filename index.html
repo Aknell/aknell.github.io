@@ -7,7 +7,7 @@
     <title>My custom Bulma website</title>
     <link rel="stylesheet" href="resources/css/master.css">
     <link rel="stylesheet" href="resources/css/custom.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/117bdb3ad0.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="resources/js/index.js"></script>
   </head>
@@ -34,17 +34,9 @@
         </div>
       </div>
     </section>
-    <section class="section">
-      <div id="tab-content" class="is-active" data-content="about">
-        <div class="container">
-          About
-        </div>
-      </div>
-        <div id="tab-content" data-content="contact">
-          <div class="container">
-            Contact
-          </div>
-        </div>
+    <section class="section container" id="tab-content">
+        <p class="is-active" data-content="about">About</p>
+        <p class="is-active" data-content="contact">Contact</p>
     </section>
   </body>
 </html>
