@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My custom Bulma website</title>
     <link rel="stylesheet" href="resources/css/master.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <script src="resources/js/index.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="resources/js/index.js"></script>
   </head>
   <body>
     <section class="hero is-black is-large is-bold">
@@ -18,13 +19,13 @@
         </div>
       </div>
       <div class="hero-foot">
-        <div class="tabs is-boxed is-fullwidth">
+        <div id="tabs" class="tabs is-boxed is-fullwidth">
           <div class="container">
             <ul>
-              <li class="is-active" data-content="aboutContent">
+              <li class="is-active" data-tab="about">
                 <a>About me</a>
               </li>
-              <li data-content="contactContent">
+              <li data-tab="contact">
                 <a>Contact</a>
               </li>
             </ul>
@@ -32,16 +33,17 @@
         </div>
       </div>
     </section>
-    <section class="section tab-content-container" id="mainTabs">
-      <div class="tab-content" id="aboutContent">
-        <div class="container">
-          About
-        </div>
-      </div><div class="tab-content" id="contactContent">
+    <section class="section">
+      <div id="tab-content" class="is-active" data-content="about">
         <div class="container">
           About
         </div>
       </div>
+        <div id="tab-content" data-content="contact">
+          <div class="container">
+            Contact
+          </div>
+        </div>
     </section>
   </body>
 </html>
