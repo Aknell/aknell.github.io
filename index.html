@@ -21,10 +21,10 @@
         <div class="tabs is-boxed is-fullwidth">
           <div class="container">
             <ul>
-              <li class="is-active" onclick="openTab(event, 'About')">
+              <li class="is-active" data-content="aboutContent">
                 <a>About me</a>
               </li>
-              <li onclick="openTab(event, 'Contact')">
+              <li data-content="contactContent">
                 <a>Contact</a>
               </li>
             </ul>
@@ -32,10 +32,15 @@
         </div>
       </div>
     </section>
-    <section class="section">
-      <div class="container">
-        <div id="About" class="content-tab">About</div>
-        <div id="Contact" class="content-tab">Contact</div>
+    <section class="section tab-content-container" id="mainTabs">
+      <div class="tab-content" id="aboutContent">
+        <div class="container">
+          About
+        </div>
+      </div><div class="tab-content" id="contactContent">
+        <div class="container">
+          About
+        </div>
       </div>
     </section>
   </body>
