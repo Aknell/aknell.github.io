@@ -10,6 +10,7 @@
     filter: blur(5px);
     transform: translateY(50%);
     transition: all 1s;
+    transition-delay: calc(100ms * var(--order));
 }
 
 .show {

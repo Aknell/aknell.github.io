@@ -5,12 +5,12 @@ title: Mods
 ---
 <div class="row text-center py-5">
     <div class="col">
-        <h1 class="text-white">Current Mods</h1>
+        <h1 class="text-white hidden" style="--order: 0;">Current Mods</h1>
     </div>
 </div>
 <div class="row row-cols-2 justify-content-center">
     {% for item in site.data.mods %}
-    <div class="col">
+    <div class="col hidden" style="--order: {{ item.order }}">
         <div class="card text-center">
             <img class="card-img-top" src="{{ item.image }}" alt="Card image cap">
             <div class="card-body">
