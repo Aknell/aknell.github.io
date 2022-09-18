@@ -18,3 +18,10 @@
     filter: blur(0);
     transform: translateY(0);
 }
+
+@media (max-width: 991.98px) {
+    .bd-navbar .bd-navbar-toggle {
+        width: 4.25rem;
+    }
+}
+
